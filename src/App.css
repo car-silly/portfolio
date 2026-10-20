@@ -343,3 +343,44 @@ a:hover {
     padding: 18px;
   }
 }
+.personal-card {
+    width: 100%;
+    height: 100%;
+}
+
+.personal-imagen-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.personal-imagen {
+    width: 100%;
+    max-width: 260px;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    border-radius: 16px;
+    border: 2px solid #2f5bea;
+}
+
+.personal-titulo {
+    color: #e6edf7 !important;
+}
+
+.personal-descripcion {
+    color: #b8c4d9;
+    font-size: 16px;
+    max-width: 500px;
+}
+
+.personal-etiqueta {
+    color: #6d96ff;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+@media (max-width: 767px) {
+    .personal-imagen {
+        max-width: 200px;
+    }
+}
