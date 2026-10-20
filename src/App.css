@@ -384,3 +384,12 @@ a:hover {
         max-width: 200px;
     }
 }
+.ant-layout-footer {
+  background-color: #10141D;
+  color: #ffffff;
+  text-align: center;
+}
+
+.ant-layout-footer a {
+  color: #ffffff;
+}
